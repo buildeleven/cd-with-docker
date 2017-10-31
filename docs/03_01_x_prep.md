@@ -12,7 +12,7 @@ The following software is needed (Windows users can use **git bash**)
 
 This is all you need to **follow** along with the **exercises**
 
-The **slides** can be viewed online at https://xebia.github.io/twc-cd-with-docker
+The **slides** can be viewed online at https://buildeleven.github.io/cd-with-docker
 
 !SUB
 # Verify Docker installation
@@ -32,13 +32,13 @@ Images: 1
 !SUB
 # Get the workshop files
 
-Clone repository [github.com/xebia/twc-cd-with-docker](https://github.com/xebia/twc-cd-with-docker.git)
+Clone repository [github.com/buildeleven/cd-with-docker](https://github.com/buildeleven/cd-with-docker.git)
 
 ```bash
 # pull project files from Github
-$ git clone https://github.com/xebia/twc-cd-with-docker.git
+$ git clone https://github.com/buildeleven/cd-with-docker.git
 # change directory
-$ cd twc-cd-with-docker
+$ cd cd-with-docker
 ```
 
 !SUB

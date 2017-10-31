@@ -31,13 +31,11 @@
   --white: #FFFFFF;
   --black: #040811;
   --textColor: #333333;
-  /*--mainColor: #6B205E;*/
   --mainColor: #64217E;
   --supportColor: #06A99C;
   --commentColor: #89999A;
-  /*--xebiaColor: #6B205E;*/
-  --xebiaColor: #64217E;
-  --twcColor:#64217E;
+  --b11Color: #64217E;
+  --b11Color:#64217E;
 }
 
 pre .value {
@@ -98,7 +96,7 @@ Headers
 testworksconf header
 */
 .intro-header{
-  background-color: var(--twcColor) !important;
+  background-color: var(--buildColor) !important;
 }
 
 .reveal h1 {

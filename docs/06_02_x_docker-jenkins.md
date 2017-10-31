@@ -12,7 +12,7 @@
 $ mkdir $HOME/jenkins
 
 # Start Jenkins
-$ docker run -d --name=jenkins -p 8080:8080 -p 50000:50000 -v $HOME/jenkins:/var/jenkins_home -v $HOME/twc-cd-with-docker:/twc-cd-with-docker --env JAVA_OPTS="-Xmx2024m" jenkins
+$ docker run -d --name=jenkins -p 8080:8080 -p 50000:50000 -v $HOME/jenkins:/var/jenkins_home -v $HOME/cd-with-docker:/cd-with-docker --env JAVA_OPTS="-Xmx2024m" jenkins
 ```
 
 !SUB
@@ -60,7 +60,7 @@ On the welcome screen in Jenkins goto **create new jobs**. Give the job a **name
  - label expression: **docker**
 - Source code management
  - Use **File System**
- - Path: /< DIRECTORY_TO_REPOSITORY_FILES >/twc-cd-with-docker
+ - Path: /< DIRECTORY_TO_REPOSITORY_FILES >/cd-with-docker
 - Build
  - Choose "add build step" type "execute shell"
  - Command: **./deploy/deploy.sh**

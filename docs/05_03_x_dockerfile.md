@@ -10,7 +10,7 @@ Dockerfile for **Hello World** application
 ```dockerfile
 FROM mjvdende/python
 
-RUN wget --no-check-certificate https://raw.githubusercontent.com/xebia/twc-cd-with-docker/master/app/helloWorld.py
+RUN wget --no-check-certificate https://raw.githubusercontent.com/buildeleven/cd-with-docker/master/app/helloWorld.py
 ```
 
 
@@ -22,7 +22,7 @@ $ docker build -t python-hello-world:1 build-dockerfile-v1
 Sending build context to Docker daemon 2.048 kB
 Step 1 : FROM mjvdende/python
  ---> 002b233310bb
-Step 2 : RUN wget --no-check-certificate https://raw.githubusercontent.com/xebia/twc-cd-with-docker/master/app/helloWorld.py
+Step 2 : RUN wget --no-check-certificate https://raw.githubusercontent.com/buildeleven/cd-with-docker/master/app/helloWorld.py
  ---> Running in 1c4e7bf0833e
  ---> 8db642e96eed
 Removing intermediate container 1c4e7bf0833e
@@ -65,7 +65,7 @@ EXPOSE 5000
 
 ENV FLASK_APP helloWorld.py
 
-RUN wget --no-check-certificate https://raw.githubusercontent.com/xebia/twc-cd-with-docker/master/app/helloWorld.py
+RUN wget --no-check-certificate https://raw.githubusercontent.com/buildeleven/cd-with-docker/master/app/helloWorld.py
 
 CMD ["flask", "run", "--host=0.0.0.0"]
 ```
@@ -77,7 +77,7 @@ $ docker build -t python-hello-world:2 build-dockerfile-v2
 Sending build context to Docker daemon 2.048 kB
 Step 1 : FROM mjvdende/python
  ---> 002b233310bb
-Step 2 : RUN wget --no-check-certificate https://raw.githubusercontent.com/xebia/twc-cd-with-docker/master/app/helloWorld.py
+Step 2 : RUN wget --no-check-certificate https://raw.githubusercontent.com/buildeleven/cd-with-docker/master/app/helloWorld.py
  ---> Using cache
  ---> 8db642e96eed
 Step 3 : CMD flask run --host=0.0.0.0

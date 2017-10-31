@@ -10,7 +10,7 @@ bash-4.3#
 # Now we're inside the container!
 
 # Download the application
-bash-4.3# wget --no-check-certificate https://raw.githubusercontent.com/xebia/twc-cd-with-docker/master/app/helloWorld.py
+bash-4.3# wget --no-check-certificate https://raw.githubusercontent.com/buildeleven/cd-with-docker/master/app/helloWorld.py
 
 # Exit the container
 bash-4.3# exit
