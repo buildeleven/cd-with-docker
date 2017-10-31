@@ -1,6 +1,6 @@
 # Workshop Continuous Delivery with Docker
 
-See http://buildeleven.github.io/cd-with-docker/ for the slides
+See https://buildeleven.github.io/cd-with-docker/ for the slides
 
 ### Run Pesentation locally 
 
