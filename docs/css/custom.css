@@ -114,20 +114,20 @@ testworksconf header
   font-size: 1.0em;
 }
 
-.reveal section[data-background="#6B205E"] {
+.reveal section[data-background="#FB8033"] {
   color: var(--white);
 }
 
-.reveal section[data-background="#6B205E"] h1 {
+.reveal section[data-background="#FB8033"] h1 {
   margin-top: -1px;
 }
 
-.reveal section[data-background="#6B205E"] h2 {
+.reveal section[data-background="#FB8033"] h2 {
   font-weight: normal;
   line-height: 1;
 }
 
-.reveal section[data-background="#6B205E"] b, .reveal section[data-background="#6B205E"] strong {
+.reveal section[data-background="#FB8033"] b, .reveal section[data-background="#FB8033"] strong {
  color: var(--supportColor);
 }
 
