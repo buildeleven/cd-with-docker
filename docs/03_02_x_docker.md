@@ -70,10 +70,10 @@ This message shows that your installation appears to be working correctly.
 
 ```bash
 # Pull in Jenkins Docker images from the Docker Hub
-$ docker pull jenkins
+$ docker pull jenkins/jenkins:lts
 
 # Start Docker container and start a interactive session in bash
-$ docker run -ti jenkins bash
+$ docker run -ti jenkins/jenkins:lts bash
 jenkins@d83aa96f567a:/# whoami
 jenkins
 
@@ -91,3 +91,5 @@ jenkins@d83aa96f567a:/# exit
 
 !SUB
 # Check. That wasn't so hard was it?
+
+
