@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#64217E" -->
+<!-- .slide: data-background="#FB8033" -->
 <center>
 # ![exercise](img/sprocket.png) <!-- .element: style="width: 10%; height: auto;" class="noborder" --> Exercise: Building an image using a Dockerfile
 

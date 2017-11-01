@@ -1,4 +1,4 @@
- <!-- .slide: data-background="#64217E" -->
+ <!-- .slide: data-background="#FB8033" -->
 <center>
 # Deploy to Production
 ![cd - deploy](img/deploy-production-continuous-deployment-pipeline.png) <!-- .element: class="noborder" -->

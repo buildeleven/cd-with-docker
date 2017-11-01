@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#64217E" -->
+<!-- .slide: data-background="#FB8033" -->
 <center>
 # Test
 ![cd - deploy](img/auto-test-continuous-deployment-pipeline.png) <!-- .element: class="noborder" -->

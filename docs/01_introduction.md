@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#64217E" -->
+<!-- .slide: data-background="#FB8033" -->
 <center>
 # Intro into Continuous Delivery and <!-- .element: class="intro-header" -->
 # Docker <!-- .element: class="intro-header" -->

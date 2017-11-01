@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#64217E" -->
+<!-- .slide: data-background="#FB8033" -->
 <center>
 #Dockerfile
 ![Docker logo](img/docker-logo-no-text.png) <!-- .element: class="noborder" -->

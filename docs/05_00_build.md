@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#64217E" -->
+<!-- .slide: data-background="#FB8033" -->
 <center>
 # Build
 ![cd - build](img/build-continuous-deployment-pipeline.png) <!-- .element: class="noborder" -->
